@@ -315,7 +315,7 @@
                 const data = await res.json();
 
                 return data.map(t => {
-                    const date = getRandomDate('2025-01-01', '2024-07-01');
+                    const date = getRandomDate('01/01/2025', '07/01/2025');
                     return {
                         ...t,
                         description: '',
